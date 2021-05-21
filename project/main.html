@@ -1,0 +1,215 @@
+<DOCTYPE HTML>
+    <html lang="en">
+        <head>
+            <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+            <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <title>
+                main blog
+            </title>
+            <style>
+               
+                .header {
+                 background-color: rgb(0, 153, 255);
+                 padding: 20px;
+                 text-align: center;
+                }
+                .topnav {
+                    overflow: hidden;
+                    background-color:rgb(218, 205, 30);
+                }
+                .mySlides {display: none;}
+                .topnav a {
+                    float: left;
+                    display: block;
+                    color:rgb(0, 153, 255) #f2f2f2;
+                    text-align: center;
+                    padding: 25px 30px;
+                    font-family:  Bradley Hand, cursive ;
+                    font-size: 24px;
+                    text-decoration: underline;
+                    text-decoration-color: rgb(218, 205, 30);
+                }
+                .column {
+                    float: center;
+                    padding: 20px;
+                    height: 100px; 
+                    font-family: Comic Sans MS, Comic Sans, cursive;
+                    font-size: x-large;
+                    font-weight: bold;
+                    text-align: center;
+                    color: rgb(218, 205, 30);
+                    text-decoration: underline;
+                    text-decoration-color: rgb(0,153,255);
+                }
+                .quote{
+                    font-family: Verdana, sans-serif;
+                    font-size: 20px;
+                    text-align: left;;
+                    color:rgb(0, 153, 255) ;
+                    background-color: white;
+    
+                }
+    
+                .left {
+                 width: 97.8%;
+                }
+                .row:after {
+                    content: "";
+                    display: table;
+                    clear: both;
+                }
+               
+    
+               
+                .topnav a:hover {
+                    background-color :white;
+                    color : #ddd;
+                }
+                .leftcolumn {   
+                     float: left;
+                     width: 70%;
+                     font-family:  Bradley Hand, cursive ;
+                     font-size: 24px;
+                }
+                .rightcolumn {
+                 float: right;
+                 width: 20%;
+                 height: 600px;
+                 background-color:white;
+                 padding-left: 20px;
+                 padding-top: 60px;
+                 font-family:  Bradley Hand, cursive ;
+                }
+                .allignleft{
+                float:  right;
+                }
+                
+                
+                .footer {
+                    background-color: #f1f1f1;
+                    padding:20px;
+                    text-align: center;
+                }
+                .fa {
+                 padding: 20px;
+                 font-size: 30px;
+                 width: 30px;
+                 text-align: center;
+                 text-decoration: none;
+                  margin: 5px 2px;
+                 border-radius: 50%;
+                }
+    
+                .fa:hover {
+                    opacity: 0.7;
+                }
+    
+                .fa-facebook {
+                 background: #3B5998;
+                 color: white;
+                }
+    
+                .fa-twitter {
+                background: #55ACEE;
+                color: white;
+                }
+                .fa-youtube {
+                background: #bb0000;
+                color: white;
+                }
+                .fa-youtube {
+                background: #bb0000;
+                color: white;
+                }
+                .fa-instagram {
+                background: #125688;
+                color: white;
+                }
+                .fa-snapchat-ghost {
+                 background: #fffc00;
+                 color: white;
+                 text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+                }
+                .fa-yahoo {
+                background: #430297;
+                color: white;
+                }
+    
+                @media screen and (max-width: 300px) {
+                .leftcolumn, .rightcolumn {   
+                 width: 100%;
+                 padding: 0;
+                 }
+                }
+            </style>
+        </head>
+        <body>
+            <div class="header">
+                <h1 style="font-family: Bradley Hand, cursive; color: white;">Hey Welcome to my blog,</h1>
+            </div>
+            <div class="topnav">
+                <a href="main.html">Home</a>
+                <a href="about.html">About me</a>
+                <a href="contact.html">Contact Me</a>
+                <div class="allignleft src">
+                    <a href="report.html"><i class='far fa-paper-plane' style='font-size:24px'></i></a>
+                </div>
+    
+            </div>
+            <div class="quote">
+                    <p> Quote that inspire me today :</p>
+            </div>
+            <div class="row">
+                <div class="column left" style="background-color:whitesmoke ;">
+                    <div class="mySlides">
+                        <h2>If you want to shine like a sun,first burn like sun.   -A P J Abdul Kalam </h2>
+                    </div>
+                      
+                    <div class="mySlides">
+                        <h2>Be yourself; everyone else is already taken.  ― Oscar Wilde  </h2>
+                    </div>
+                      
+                    <div class="mySlides">
+                        <h2>Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.  ― Albert Einstein</h2>
+                    </div>
+                </div>
+            </div>
+            <script>
+                var slideIndex = 0;
+                showSlides();
+                function showSlides() {
+                  var i;
+                  var slides = document.getElementsByClassName("mySlides");
+                  for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";  
+                  }
+                  slideIndex++;
+                  if (slideIndex > slides.length) {slideIndex = 1}
+                  slides[slideIndex-1].style.display = "block";
+                  setTimeout(showSlides,5000); 
+                }
+            </script>
+            <div class="row">
+                <div class="leftcolumn">
+                    <h4 style="color: rgb(0, 153, 255);">WELCOME!</h4>
+                    <p> Hello.........<br> I create this space because my endless digital circle need a way to come together , I'm creating an inter net hub where all the things that I've done,am doing and want to do can useful to all.<br> <br>I don't just want this place to about me,that would stuck me.I'm putting it out there on the interwebs, rather than in my own personal, because I want to wok with you<br><br> this made us interact with the with u, This help me with who to be with others in social life <br><br><br>Hey...<br> Myself Teja <br>  Iam student CS from Amrita vishwa vidhyapeetham<br><br> this good place to know about a CS student life </p>
+                </div>
+                <div class="rightcolumn">
+                    
+                    <div class="fakeimg" style="height:170px; width:175px"><img src="teja1.jfif" width="175px" height="170px"></div>
+                    <p>Hi! <br> you can find on below social media<br>this make iam connected always with you<br> so follow me on..... </p>
+                    <a href="www.facebook.com/PiduruTejareddy" class="fa fa-facebook"></a>
+                    <a href="https://twitter.com/PiduruTejareddy" class="fa fa-twitter"></a>
+                    <a href="https://www.youtube.com/channel/UCHPVdVX-5ZgTBzIryQVBxgA" class="fa fa-youtube"></a>
+                    <a href="https://www.instagram.com/_.tejareddy/" class="fa fa-instagram"></a>
+                    <a href="www.snapchat.com" class="fa fa-snapchat-ghost"></a>
+                    <a href="https://login.yahoo.com/?.src=ym&.lang=en-IN&.intl=in&.done=https%3A%2F%2Fin.mail.yahoo.com%2Fd" class="fa fa-yahoo"></a>
+                </div>
+            </div>
+            <div class="footer">
+                <p>Copyright ©2020 tejareddy. All rights reserved</p>
+              </div>
+    
+        </body>
+    </html>

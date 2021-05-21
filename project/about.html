@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+
+            .header {
+             background-color: rgb(0, 153, 255);
+             padding: 20px;
+             text-align: center;
+            }
+            .topnav {
+                overflow: hidden;
+                background-color:rgb(218, 205, 30);
+            }
+            
+            
+            .topnav a {
+                float: left;
+                display: block;
+                color:rgb(0, 153, 255) #f2f2f2;
+                text-align: center;
+                padding: 25px 30px;
+                font-family:  Bradley Hand, cursive ;
+                font-size: 24px;
+                text-decoration: underline;
+                text-decoration-color: rgb(218, 205, 30);
+            }
+            
+            .topnav a:hover {
+              background-color: #ddd;
+              color: black;
+            }
+
+            .column {
+              float: left;
+              padding: 30px;
+            }
+
+            
+            .column.side {
+              width: 20%;
+            }
+
+            
+            .column.middle {
+              width: 70%;
+              font-family:  Bradley Hand, cursive ;
+              font-weight: bold;
+            }
+
+            
+            .row:after {
+              content: "";
+              display: table;
+              clear: both;
+            }
+            .imagelik{
+                font-style: italic;
+                text-align: left;
+                font-size: 30px;
+            }
+            .footer {
+                background-color: #f1f1f1;
+                padding:20px;
+                text-align: center;
+            }
+            .allignleft{
+            float:  right;
+            }
+            
+           
+</style>
+</head>
+<body>
+
+    <div class="header">
+        <h1 style="font-family: Bradley Hand, cursive; color: white;">Hey Welcome to my blog,</h1>
+    </div>
+    <div class="topnav">
+        <a href="main.html">Home</a>
+        <a href="about.html">About me</a>
+        <a href="contact.html">Contact Me</a>
+        <div class="allignleft" ><a href="report.html"><i class='far fa-paper-plane' style='font-size:24px'></i></a></div>
+    </div>
+
+<div class="row">
+  <div class="column side" style="background-color: whitesmoke; padding: 10px; ">
+    <h2>My photos</h2>
+    <div class="fakeimg" style="height:170px; width:175px"><img src="teja1.jfif" width="175px" height="170px"></div>
+    <p>click below to enter my images page.</p>
+    <div class="imagelik"><p><b><a href="images.html"> click here</a></b></p></div>
+  </div>
+  
+  <div class="column middle">
+    <h2 style="background-color: rgb(24, 233, 24); padding: 10px;">ABOUT ME</h2>
+    <p>Myself TEJA </p>
+    <p>Iam cs student from amrita vishwa vidyapeetham, India</p>
+    <p>Born on 21st june 2002</p>
+    <p> MATHEMATICES LOVE </p>
+    <P>search for problem, Think logic, code and repeate<P>
+    <p>passionate about create and achive </p>
+    <p>As CS student, iam good at problem solving and in computer languages. </p>
+    <p>Iam curently studing and researching to develop a bussiness intelligence by this Iam strongly decisided to develop the economies althrough the world </p>
+    <p>Iam always motivated by soldiers and police officers</p>
+    <p>my intresets, to learn something new, praticing and improving myself in all tasks recardings to my subjects</p>
+    <p>dreams, who dont have the dreams, I have many dreams </p>
+    <ul>
+      <li>To rule the indian economy</li>
+      <li>billionaire @ over night</li>
+      <li>to become jet frighter pilot......<li>
+    </ul> 
+    <p>My Ambition, to join in indian intelligence agencies</p>
+
+    <p>PROVED TO BE AN INDIAN</p>
+  </div>
+ 
+</div>
+<div class="footer">
+  <p>Copyright ©2020 tejareddy. All rights reserved</p>
+</div>
+  
+</body>
+</html>

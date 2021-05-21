@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+          * {
+            box-sizing: border-box;
+          }
+
+          body {
+          margin: 0;
+            }
+          .header{
+             background-color: rgb(0, 153, 255);
+             padding: 20px;
+             text-align: center;
+            }
+            .topnav {
+                overflow: hidden;
+                background-color:rgb(218, 205, 30);
+            }
+            .column {
+              float: middle;
+              padding: 30px;
+            }
+            .column.middle {
+              width: 70%;
+              font-family:  Bradley Hand, cursive ;
+              font-weight: bold;
+            }
+
+            .topnav a {
+                float: left;
+                display: block;
+                color:rgb(0, 153, 255) #f2f2f2;
+                text-align: center;
+                padding: 25px 30px;
+                font-family:  Bradley Hand, cursive ;
+                font-size: 24px;
+                text-decoration: underline;
+                text-decoration-color: rgb(218, 205, 30);
+            }
+
+            .topnav a:hover {
+              background-color: #ddd;
+              color: black;
+            }
+            h3{
+              text-decoration: underline;
+              text-decoration-color: black;
+            }
+
+            .column {
+              padding: 30px;
+            }
+            .column.side {
+              width: 20%;
+              height: 100%;
+              float: left;
+              font-family:  Bradley Hand, cursive ;
+            }
+            .column.middle {
+              width: 60%;
+              height: 100%;
+              float : left;
+              font-family:  Bradley Hand, cursive ;
+              font-weight: bold;
+            }
+            
+            .row:after {
+              content: "";
+              display: table;
+              clear: both;
+            }
+            .fa {
+            padding: 20px;
+           font-size: 30px;
+           width: 65px;
+           text-align: center;
+           text-decoration: none;
+           border-radius: 40%;
+           
+          }
+        .fa:hover {
+          opacity: 0.7;
+          }
+
+            .fa-facebook {
+             background: #3B5998;
+             color: white;
+            }
+
+            .fa-twitter {
+            background: #55ACEE;
+            color: white;
+            }
+            .fa-youtube {
+            background: #bb0000;
+            color: white;
+            }
+            .fa-youtube {
+            background: #bb0000;
+            color: white;
+            }
+            .fa-instagram {
+            background: #125688;
+            color: white;
+            }
+            .fa-snapchat-ghost {
+             background: #fffc00;
+             color: white;
+             text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+            }
+            .fa-yahoo {
+            background: #430297;
+            color: white;
+            }
+            .allignleft{
+            float:  right;
+            }
+            .footer {
+                background-color: #f1f1f1;
+                padding:20px;
+                text-align: center;
+            }
+</style>
+</head>
+<body>
+
+    <div class="header">
+        <h1 style="font-family: Bradley Hand, cursive; color: white;">Hey Welcome to my pages,</h1>
+    </div>
+    <div class="topnav">
+        <a href="main.html">Home</a>
+        <a href="about.html">About me</a>
+        <a href="contact.html">Contact Me</a>
+        <div class="allignleft" ><a href="report.html"><i class='far fa-paper-plane' style='font-size:24px'></i></a></div>
+  
+    </div>
+    <div class="row">
+      <div class="column side"><h2 style="color:rgb(0, 153, 255) ;">CONTACT ME</h2></div>
+      <div class="column middle">
+        <br><h3>CALL ME :</h3>
+        <i class="glyphicon glyphicon-phone">   97XXX XXXX8</i><br>
+        <i class="glyphicon glyphicon-phone">   86XXX XXXX9</i>
+
+        <h3>MAIL ME@</h3>
+        <i class="glyphicon glyphicon-envelope">  pidurutejareddy@gmail.com</i>
+        <br>
+        <h3>THROUGH SOCIALY, findme on below : </h3><br>
+                <a href="https://www.facebook.com/Tejareddy_Piduru" class="fa fa-facebook"></a>
+                <a href="https://www.twitter.com" class="fa fa-twitter"></a>
+                <a href="https://www.youtube.com/channel/UCHPVdVX-5ZgTBzIryQVBxgA" class="fa fa-youtube"></a>
+                <a href="https://www.instagram.com/_.tejareddy/" class="fa fa-instagram"></a>
+                <a href="https://www.snapchat.com" class="fa fa-snapchat-ghost"></a>
+                <a href="https://login.yahoo.com/?.src=ym&.lang=en-IN&.intl=in&.done=https%3A%2F%2Fin.mail.yahoo.com%2Fd" class="fa fa-yahoo"></a><br><br><br><br><br><br><br><br><br>
+      </div>
+    </div>
+    <div class="footer">
+      <p>Copyright ©2020 tejareddy. All rights reserved</p>
+    </div>
+    
+</body>
